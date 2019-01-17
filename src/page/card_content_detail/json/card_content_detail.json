@@ -1,0 +1,47 @@
+{
+  "code": 0,
+  "shop_url": "https://15522634982.davdian.com",
+  "visitor_status": 3,
+  "sess_key": "42df8bf6e510c97c11afe81a96569014027bf803",
+  "data": {
+    "id": "string, 内容ID",
+    "nickName": "string, 用户昵称",
+    "avatar": "string, 用户头像",
+    "createTime": "string, 发布时间文案",
+    "actId": "number, 活动ID",
+    "actTitle": "string, 活动名称",
+    "signInDaySum": "坚持天数",
+    "content": "string, 打卡内容",
+    "delStatus": "0",
+    "status": "1",
+    "praised": "string, 0:未点赞，1:已点赞",
+    "shareNum": "20万",
+    "thumbsUpNum": "200",
+    "commentNum": "string, 评论数",
+    "imageUrls": [
+      "https://avatars3.githubusercontent.com/u/12149373?s=460&v=4?x-oss-process=image/format,webp",
+      "http://9i.dvmama.com/supplier/2017/07/18/1000_1000_67ffb738c51b2f6f6e17231905197e2d.jpg?x-oss-process=image/resize,m_fill,w_640,h_640/format,webp",
+      "http://9i.dvmama.com/supplier/2017/07/18/1000_1000_67ffb738c51b2f6f6e17231905197e2d.jpg?x-oss-process=image/resize,m_fill,w_640,h_640/format,webp",
+      "https://avatars3.githubusercontent.com/u/12149373?s=460&v=4?x-oss-process=image/format,webp",
+      "http://9i.dvmama.com/supplier/2017/07/18/1000_1000_67ffb738c51b2f6f6e17231905197e2d.jpg?x-oss-process=image/resize,m_fill,w_640,h_640/format,webp",
+      "http://9i.dvmama.com/supplier/2017/07/18/1000_1000_67ffb738c51b2f6f6e17231905197e2d.jpg?x-oss-process=image/resize,m_fill,w_640,h_640/format,webp",
+      "http://9i.dvmama.com/supplier/2017/07/18/1000_1000_67ffb738c51b2f6f6e17231905197e2d.jpg?x-oss-process=image/resize,m_fill,w_640,h_640/format,webp",
+      "http://9i.dvmama.com/supplier/2017/07/18/1000_1000_67ffb738c51b2f6f6e17231905197e2d.jpg?x-oss-process=image/resize,m_fill,w_640,h_640/format,webp",
+      "http://9i.dvmama.com/supplier/2017/07/18/1000_1000_67ffb738c51b2f6f6e17231905197e2d.jpg?x-oss-process=image/resize,m_fill,w_640,h_640/format,webp"
+
+    ],
+    "comment": {
+      "count": "200",
+      "list": [
+        {
+          "id": "string, 评论ID",
+          "nickname": "string, 用户昵称",
+          "avatar": "string, 用户头像",
+          "content": "string, 评论内容",
+          "userId": "string, 用户ID",
+          "createTime": "string, 发布时间文案"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "code": 0,
+  "shop_url": "https://15522634982.davdian.com",
+  "visitor_status": 3,
+  "sess_key": "42df8bf6e510c97c11afe81a96569014027bf803",
+  "data": {
+    "actInfo":{
+      "title":"7天养成好习惯",
+      "actDesc":"活动介绍"
+    },
+    "actStatus":"1",
+    "joinStatus":"1",
+    "joinNum":"21321",
+    "userInfo":{
+      "signStatus":"1",
+      "joinDay":"12",
+      "actSignDay":"8",
+      "startMonth":"8",
+      "dateInfo":{
+        "1":"2",
+        "2":"1",
+        "3":"5"
+      }
+    },
+    "contentTitle":[
+      {
+        "title":"最新",
+        "category":"1"
+      },
+      {
+        "title":"热门",
+        "category":"2"
+      },
+      {
+        "title":"我的",
+        "category":"3"
+      }
+    ],
+    "newList":[
+      {
+        "marginTop":"10",
+        "body":{
+          "tplId":"bookstore_sign_list",
+          "id":"打卡内容id",
+          "avatar":"头像地址",
+          "content":"内容",
+          "nickName":"昵称",
+          "time":"1分钟前",
+          "dayCount":"1034",
+          "activityInfo":{
+            "name":"活动名称",
+            "actId":"活动id",
+            "command": {
+              "content" : "点击时的动作"
+            }
+          },
+          "imageUrlList":[
+            {
+              "imageUrl":"图片地址"
+            }
+          ],
+          "thumbsUpNum":"点赞数",
+          "commentNum":"评论数",
+          "shareNum":"分享数"
+        }
+      }
+    ],
+      "hotList":[
+      {
+      "marginTop":"10",
+      "body":{
+      "tplId":"bookstore_sign_list",
+      "id":"打卡内容id",
+      "avatar":"头像地址",
+      "content":"内容",
+      "nickName":"昵称",
+      "time":"1分钟前",
+      "dayCount":"1034",
+      "activityInfo":{
+        "name":"活动名称",
+        "actId":"活动id",
+        "command": {
+         "content" : "点击时的动作"
+        }
+      },
+      "imageUrlList":[
+      {
+      "imageUrl":"图片地址"
+      }
+      ],
+      "thumbsUpNum":"点赞数",
+      "commentNum":"评论数",
+      "shareNum":"分享数"
+      }
+      }],
+      "myList":[
+      {
+        "marginTop":"10",
+        "body":{
+        "tplId":"bookstore_sign_list",
+        "id":"打卡内容id",
+        "avatar":"头像地址",
+        "content":"内容",
+        "nickName":"昵称",
+        "time":"1分钟前",
+        "dayCount":"1034",
+        "activityInfo":{
+        "name":"活动名称",
+        "actId":"活动id",
+        "command": {
+        "content" : "点击时的动作"
+      }
+      },
+      "imageUrlList":[
+      {
+      "imageUrl":"图片地址"
+      }
+      ],
+      "thumbsUpNum":"点赞数",
+      "commentNum":"评论数",
+      "shareNum":"分享数"
+    }
+    }]
+    }
+    }

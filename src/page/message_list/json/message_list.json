@@ -1,0 +1,41 @@
+{
+  "code": "0",
+  "shop_url": "https://15201663952.davdian.com",
+  "visitor_status": "3",
+  "sess_key": "48a275a991a0a6295706e6d9f8c3a784b62a4bbc",
+  "data_version": "xxxxxx",
+  "data": {
+    "dataList": [
+      {
+        "avator": "http://img1.bravetime.net/user/2017/09/25/80_80_3dfe2acf6ec330033965c21d497a705a.png",
+        "nickname": "xi",
+        "content": "string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容",
+        "time": "刚刚",
+        "imageUrl": "http://9i.dvmama.com/goods/2017/12/26/1200_1200_66c6d8abc07c308b0ebb8640fec664a3.jpg",
+        "command": {
+          "content": "/center.html"
+        }
+      },
+      {
+        "avator": "http://img1.bravetime.net/user/2017/09/25/80_80_3dfe2acf6ec330033965c21d497a705a.png",
+        "nickname": "nicknamenickname",
+        "content": "string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容",
+        "time": "刚刚",
+        "imageUrl": "http://9i.dvmama.com/goods/2017/12/26/1200_1200_66c6d8abc07c308b0ebb8640fec664a3.jpg",
+        "command": {
+          "content": "/center.html"
+        }
+      },
+      {
+        "avator": "http://img1.bravetime.net/user/2017/09/25/80_80_3dfe2acf6ec330033965c21d497a705a.png",
+        "nickname": "nicknamenickname",
+        "content": "string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容string, 评论内容",
+        "time": "刚刚",
+        "imageUrl": "http://9i.dvmama.com/goods/2017/12/26/1200_1200_66c6d8abc07c308b0ebb8640fec664a3.jpg",
+        "command": {
+          "content": "/center.html"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "code": 0,
+  "shop_url": "https://15522634982.davdian.com",
+  "visitor_status": 3,
+  "sess_key": "42df8bf6e510c97c11afe81a96569014027bf803",
+  "data": {
+    "commentId": "string, 评论ID",
+    "avatar": "http://9i.dvmama.com/supplier/2017/07/18/1000_1000_67ffb738c51b2f6f6e17231905197e2d.jpg?x-oss-process=image/resize,m_fill,w_640,h_640/format,webp",
+    "nickname": "test"
+  }
+}

@@ -1,0 +1,483 @@
+@import "../../../common/css/util";
+
+.card_content_detail {
+  background-color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+  //font-weight:300;
+
+  .dvd-service-com-title {
+    z-index: 4;
+  }
+
+  [v-cloak] {
+    display: none;
+  }
+  .delete-icon, .share-icon {
+    width: 40px;
+    height: 44px;
+    display: block;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .delete-icon {
+    background: url(../../../common/img/title-delete.png) center no-repeat;
+    background-size: 40px;
+  }
+  .share-icon {
+    background: url(../../../common/img/title-share.png) center no-repeat;
+    background-size: 40px 44px;
+  }
+
+  .record {
+    padding: 0 r(20) r(50);
+    //margin-top: r(10);
+    /* 打卡标题 */
+    .title {
+      padding-top: r(10);
+      display: flex;
+      /* 头像 */
+      .head {
+        @include circle(r(40));
+        margin-right: r(10);
+        display: block;
+      }
+      /* 标题内容 */
+      .info {
+        flex: 1;
+        max-width: r(285);
+        @include ellipsis;
+        display: block;
+        /* 第一行标题内容 */
+        .top {
+          .nickname {
+            @include height(r(20));
+            font-size: r(14);
+            vertical-align: middle;
+          }
+          .time {
+            float: right;
+            position: relative;
+            top: r(2);
+            @include height(r(17));
+            font-size: r(12);
+            vertical-align: middle;
+            color: #999;
+          }
+        }
+        /* 第二行标题内容 */
+        .bottom {
+          margin-top: r(2);
+          .day {
+            padding: 0 r(5);
+            display: inline-block;
+            @include height(r(15));
+            border-radius: r(4);
+            background: #D3BEA0;
+            font-size: r(10);
+            color: white;
+            vertical-align: middle;
+          }
+          .activity {
+            margin-left: 0.05rem;
+            color: #FF4a7d;
+            height: 0.17rem;
+            line-height: 0.17rem;
+            font-size: 0.12rem;
+            vertical-align: middle;
+            max-width: 2.45rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: inline-block;
+          }
+        }
+      }
+    }
+    /* 打卡文字 */
+    .words {
+      margin-top: r(10);
+      padding-left: r(50);
+      line-height: r(20);
+      font-size: r(14);
+      color: #333;
+      user-select: text;
+      .all {
+        margin-top: r(5);
+        color: #6F9BD8;
+        font-size: r(12);
+      }
+    }
+    /* 打卡图片 */
+    .pics {
+      margin-top: r(10);
+      padding-left: r(50);
+      .pic {
+        margin: 0 0 r(4) r(6);
+        @include square(r(90));
+        border-radius: r(3);
+        &:nth-of-type(3n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+    /* 打卡按钮 */
+    .btns {
+      margin-top: r(10);
+      padding-left: r(50);
+      font-size: 0;
+      * {
+        vertical-align: middle;
+      }
+      i {
+        margin-right: r(5);
+      }
+      /* 按钮 */
+      .praise, .share {
+        font-size: r(13);
+        color: #666;
+      }
+      /* 点赞 */
+      .praise {
+        padding-right: r(15);
+        border-right: 1px solid #eee;
+        i {
+          content: '';
+          display: inline-block;
+          width: r(17);
+          height: r(17);
+          margin-right: r(7);
+          background: url(../img/praise.png) no-repeat;
+          background-size: r(17);
+          position: relative;
+          top: -0.01rem;
+        }
+
+        &.prised {
+          i {
+            background: url(../img/praised.png) no-repeat;
+            background-size: r(17);
+          }
+        }
+      }
+      /* 分享 */
+      .share {
+        i {
+          margin-left: r(17);
+          content: '';
+          display: inline-block;
+          width: r(17);
+          height: r(17);
+          margin-right: r(9);
+          background: url(../img/share.png) no-repeat;
+          background-size: r(17);
+        }
+      }
+    }
+
+    //内容违规失效
+    .invalid {
+      margin-top: r(15);
+      margin-left: r(50);
+      @include height(r(34));
+      background: #FFF9FB;
+      font-size: 0;
+      img {
+        margin: 0 r(5) 0 r(10);
+        height: r(13);
+        position: relative;
+        top: r(1);
+      }
+      * {
+        vertical-align: middle;
+        font-size: r(13);
+        color: #FF4a7d;
+      }
+    }
+    .comment {
+      padding-left: r(50);
+
+      .comment-title {
+        padding: r(20) 0 r(10);
+        font-size: r(18);
+        color: #333333;
+        @include height(r(25));
+
+        .sub-title {
+          font-size: r(12);
+          color: #000000;
+          line-height: r(25);
+        }
+      }
+      .comment-item {
+        position: relative;
+        margin-bottom: r(8);
+
+        div {
+          position: relative;
+          z-index: 2;
+        }
+
+        &:not(:last-child) {
+          &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 220%;
+            height: 200%;
+            border-bottom: 1px solid #E1E1E1;
+            transform-origin: 0 0;
+            transform: scale(0.5, 0.5);
+            box-sizing: border-box;
+          }
+        }
+        .item-detail {
+          @include height(r(30));
+
+          .comment-pic {
+            width: r(30);
+            height: r(30);
+            border-radius: 50%;
+            margin-right: r(10);
+            float: left;
+          }
+          .name {
+            font-size: r(12);
+            color: #666666;
+            float: left;
+            max-width: 1rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+          .my-comment {
+            width: r(50);
+            @include height(r(14));
+            background: #FFF1F5;
+            border-radius: r(10);
+            font-size: r(10);
+            color: #FF4A7D;
+            position: relative;
+            top: -0.01rem;
+            display: inline-block;
+            text-align: center;
+            margin-left: 0.09rem;
+          }
+          .time {
+            font-size: r(11);
+            color: #999999;
+            float: right;
+          }
+        }
+        .item-text {
+          font-size: r(13);
+          color: #333333;
+          line-height: r(18);
+          padding: r(8) 0 r(10);
+        }
+      }
+
+      .no-comment {
+        height: r(338);
+        border-top: 1px solid #F4F4F4;
+        padding: r(80) 0 0 r(65);
+
+        .no-comment-pic {
+          width: r(106);
+          height: r(73);
+          padding-bottom: r(20);
+        }
+        .no-comment-text {
+          width: r(106);
+          text-align: center;
+          font-size: r(13);
+          color: #666666;
+          line-height: r(18);
+        }
+      }
+    }
+  }
+  .comment-input {
+    background: rgba(249, 247, 248, 0.98);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 0.1rem 0.1rem;
+    max-width: 640px;
+
+    &:after {
+      content: '';
+      width: 200%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-top: 1px solid #E3DFD8;
+      transform-origin: 0 0;
+      transform: scale(0.5, 0.5);
+    }
+    .text-wrapper {
+      display: inline-block;
+      position: relative;
+      height: 0.34rem;
+      margin-right: 0.06rem;
+      padding: 1px;
+      width: 2.75rem;
+      box-sizing: border-box;
+      .text {
+        border: none;
+        background: #FFFFFF;
+        border-radius: 0.03rem;
+        font-size: 0.14rem;
+        color: #333;
+        position: relative;
+        width: 2.73rem;
+        height: 0.32rem;
+        padding: 0.08rem 0 0 0.1rem;
+        box-sizing: border-box;
+        z-index: 2;
+        display: block;
+        resize: none;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 200%;
+        width: 200%;
+        border: 1px solid #ddd;
+        transform-origin: 0 0;
+        transform: scale(0.5, 0.5);
+        box-sizing: border-box;
+        border-radius: r(3);
+      }
+    }
+    .comment-btn {
+      background: linear-gradient(to right, #FF5C5C, #FA1862);
+      width: r(70);
+      @include height(r(34));
+      border-radius: r(20);
+      font-size: r(14);
+      color: #FFFFFF;
+      text-align: center;
+      display: inline-block;
+      //position: absolute;
+      //right: 0.1rem;
+      //bottom:0.1rem;
+      float: right;
+    }
+  }
+  .no_more {
+    color: #666;
+    font-size: r(12);
+    position: relative;
+    bottom: r(50);
+    margin-top: 0.1rem;
+    text-align: center;
+    img {
+      vertical-align: middle;
+    }
+  }
+  .no_moreStyle {
+    position: relative;
+    bottom: r(50);
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+  }
+  .prised-tip {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: r(4);
+    width: r(120);
+    text-align: center;
+    @include height(r(40));
+    font-size: r(14);
+    color: #FFFFFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: hide 3s;
+    animation-fill-mode: forwards;
+    z-index: 4;
+
+    @keyframes hide {
+      from {
+        opacity: 0.65;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+  }
+  .dvd-service-com-popup.confirm-tip {
+    .table-cell {
+      .tip {
+        flex-direction: unset;
+      }
+    }
+  }
+
+  //违规下线后样式调整
+  &.offline {
+    .btns {
+      .praise {
+        i {
+          opacity: .4;
+        }
+      }
+      .share {
+        i {
+          opacity: .6;
+        }
+      }
+    }
+    .comment-input {
+      .comment-btn {
+        background-image: linear-gradient(to right, #C0C0C0, #999999);
+      }
+    }
+  }
+
+  //非本人查看已下线打卡内容
+  .non-user {
+    .tip {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+
+      .tip-pic {
+        width: r(106);
+        height: r(73);
+        margin-bottom: r(20);
+      }
+      .tip-text {
+        font-size: r(13);
+        color: #666666;
+        line-height: r(18);
+      }
+    }
+  }
+}
+
+.android .record .title .info .bottom .day {
+  line-height: 0.17rem;
+}
+
+.android .record .comment .comment-item .item-detail .my-comment {
+  line-height: 0.16rem;
+  position: relative;
+  top: 0.01rem;
+}
+
+.android .comment-input .comment-btn {
+  line-height: 0.37rem;
+}
+
+.ios .record .comment .comment-item .item-detail .my-comment {
+  line-height: 0.15rem;
+}

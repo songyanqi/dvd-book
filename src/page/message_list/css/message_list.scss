@@ -1,0 +1,154 @@
+@import '../../../../node_modules/dvd-service-scss-common/dvd-service-scss-common.scss';
+
+.message_list {
+
+  .dvd-service-com-title {
+    background: #FEFEFE;
+    /* 删除 */
+    .del-icon {
+      display: block;
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      width: 40px;
+      height: 44px;
+      background: url(../../../common/img/title-delete.png) center no-repeat;
+      background-size: 40px 44px;
+      vertical-align: middle;
+    }
+  }
+  /*-----分页效果-----*/
+  .no_more {
+    text-align: center;
+    background: white;
+  }
+  .no_more img {
+    vertical-align: middle;
+  }
+  .no_moreStyle {
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    color: #999999;
+  }
+  /*-------分页效果------*/
+  .wapper {
+    background: #fff;
+    padding: r(15) 0;
+    &:not(:last-of-type):after {
+      //&:after {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 100%;
+      background: #e1e1e1;
+      position: relative;
+      top: r(15);
+      transform: scaleY(0.5);
+    }
+    .list-message {
+      padding: 0 r(20);
+      overflow: hidden;
+      .left {
+        float: left;
+        font-size: 0;
+        .pic {
+          display: inline-block;
+          width: r(40);
+          height: r(40);
+          border-radius: 50%;
+          font-size: 0;
+          vertical-align: top;
+          img {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            max-width: 100%;
+            border-radius: 50%;
+          }
+        }
+        .content {
+          display: inline-block;
+          margin-left: r(10);
+          .content-title {
+            font-size: r(12);
+            height: r(14);
+            line-height: r(14);
+            font-weight: 400;
+            color: #666;
+          }
+          .content-parise {
+            width: r(205);
+            margin-top: r(5);
+            line-height: r(18);
+            max-height: r(18) * 3;
+            font-size: r(14);
+            @include ellipsis(3);
+            font-weight: 400;
+            color: #333;
+          }
+          .content-time {
+            margin-top: r(5);
+            font-size: r(11);
+            line-height: r(16);
+            color: #999;
+          }
+        }
+      }
+      .right {
+        float: right;
+        width: r(70);
+        height: r(70);
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          max-width: 100%;
+          border-radius: r(3);
+        }
+      }
+    }
+    .padding-line {
+      width: 200%;
+      height: 1px;
+      background: #e1e1e1;
+      transform: scale(0.5);
+      transform-origin: top left;
+      margin: r(15) 0;
+    }
+  }
+  /*暂无消息*/
+  .message-pic {
+    left: 0;
+    right: 0;
+    margin: r(100) auto r(20);
+    width: r(120);
+    height: r(87);
+    img {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+    }
+  }
+  .message-box {
+    margin-top: r(200);
+    .message-content {
+      color: #999;
+      font-size: r(14);
+      text-align: center;
+      img {
+        width: r(106);
+      }
+      .word {
+        margin-top: r(10);
+      }
+    }
+  }
+}
+
+.dvd-service-com-popup.message_list-clear-confirm .table-cell .box .tip {
+  padding: r(25);
+  min-height: 1px;
+}

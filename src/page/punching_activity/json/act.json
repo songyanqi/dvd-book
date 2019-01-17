@@ -1,0 +1,34 @@
+{
+  "code": "0",
+  "shop_url": "https://15201663952.davdian.com",
+  "visitor_status": "3",
+  "sess_key": "48a275a991a0a6295706e6d9f8c3a784b62a4bbc",
+  "data_version": "xxxxxx",
+  "data": {
+    "feedList": [{
+      "marginTop": "10",
+      "body": {
+        "tplId": "bookstore_sign_list",
+        "id": "打卡内容id",
+        "avatar": "头像地址",
+        "content": "内容",
+        "nickName": "昵称",
+        "time": "1分钟前",
+        "dayCount": "1034",
+        "activityInfo": {
+          "name": "活动名称",
+          "actId": "活动id",
+          "command": {
+            "content": "点击时的动作"
+          }
+        },
+        "imageUrlList": [{
+          "imageUrl": "//9i.dvmama.com/goods/2017/12/11/561_300_2a93b7564e8661b18044e2c3b8e35062.png"
+        }],
+        "thumbsUpNum": "点赞数",
+        "commentNum": "评论数",
+        "shareNum": "分享数"
+      }
+    }]
+  }
+}

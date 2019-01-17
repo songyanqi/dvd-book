@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  @@include('node_modules/dvd-base-build/html-inc/head.inc')
+  <link rel="stylesheet" href="[[vendor]]/swiper/swiper-3.3.1.min.css">
+  <link rel="stylesheet" href="[[static]]/common/css/common.css[[v]]">
+  <link rel="stylesheet" href="[[static]]/page/router/css/router.css[[v]]">
+</head>
+<body>
+  <div class="app" v-cloak
+       :class="{native: ua.isDvdApp(), android: ua.isAndroid(), ios: ua.isIos()}"
+       :style="{minHeight: document.documentElement.clientHeight + 'px'}">
+    <router-view></router-view>
+  </div>
+
+  @@include('node_modules/dvd-base-build/html-inc/body.inc')
+  <script crossorigin="anonymous" integrity="sha256-axCA4zZfWCHK3Voqm20kNdIvm0vPCz4KTRUYPVNadLA=" src="[[vendor]]/swiper/swiper-3.3.1.min.js"></script>
+  <script src="[[vendor]]/vue-router/3.0.1/vue-router.min.js"></script>
+  <script src="[[vendor]]/vuex/3.0.1/vuex.min.js"></script>
+  <script src="[[static]]/common/js/common.js[[v]]"></script>
+  <script src="[[static]]/page/router/js/router.js[[v]]"></script>
+</body>
+</html>

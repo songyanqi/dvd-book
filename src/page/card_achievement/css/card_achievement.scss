@@ -1,0 +1,121 @@
+@import '../../../../node_modules/dvd-service-scss-common/dvd-service-scss-common.scss';
+
+.card_achievement {
+  background-color: #fff;
+  box-sizing: border-box;
+  min-height: 100vh;
+
+  .achievement-head {
+    padding: r(31) r(20) 0;
+
+    .head-wrapper {
+      overflow: hidden;
+      padding: 0 0.3rem 0.25rem;
+      position: relative;
+
+      &:after {
+        content: '';
+        width: 200%;
+        position: absolute;
+        bottom: 0;
+        border-bottom: 1px solid #D8D8D8;
+        transform-origin: 0 0;
+        transform: scale(0.5, 0.5);
+        left: 0;
+      }
+    }
+    .head-item {
+      float: left;
+      width: 50%;
+      text-align: center;
+
+      .item-title {
+        font-size: r(14);
+        color: #666666;
+        @include height(r(20));
+        text-align: center;
+      }
+      .item-detail {
+        font-size: r(12);
+        color: #666666;
+
+        span {
+          display: inline-block;
+          font-size: r(40);
+          color: #FF4A7D;
+          padding: r(8) r(2);
+        }
+      }
+    }
+  }
+  .activity {
+    padding: 0 r(20);
+
+    .activity-title {
+      font-size: r(18);
+      color: #666666;
+      @include height(r(25));
+      padding: 0.14rem 0 0.05rem;
+
+      &:before {
+        content: '';
+        display: inline-block;
+        width: r(3);
+        height: r(16);
+        background: #FF4A7D;
+        border-radius: r(20);
+        margin: r(-2) r(5) 0 0;
+      }
+    }
+    .activity-item {
+      padding: r(10) 0;
+      overflow: hidden;
+      &:not(:last-child) {
+        border-bottom: 1px solid #D8D8D8;
+      }
+
+      .activity-pic {
+        width: r(160);
+        height: r(80);
+        border-radius: r(4);
+        margin-right: r(10);
+        float: left;
+      }
+      .activity-detail {
+        position: relative;
+        height: r(80);
+        padding-left: r(170);
+
+        &.activity-end {
+          font-size: r(14);
+          color: #666666;
+          line-height: r(80);
+        }
+        .detail-title {
+          font-size: r(14);
+          color: #666666;
+          @include height(r(20));
+          .special {
+            color: #FF4A7D;
+          }
+        }
+        .activity-btn {
+          display: block;
+          position: absolute;
+          bottom: 0;
+          background: #DBDBDB;
+          border-radius: r(50);
+          width: r(55);
+          @include height(r(20));
+          text-align: center;
+          font-size: r(12);
+          color: #FFFFFF;
+
+          &.act {
+            background: #FF4A7D;
+          }
+        }
+      }
+    }
+  }
+}

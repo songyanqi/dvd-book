@@ -1,0 +1,44 @@
+@import "../../../common/css/util";
+
+[v-cloak] {
+  display: none;
+}
+
+.card_record {
+  background-color: #fff;
+  min-height: 100vh;
+  //font-weight: 300;
+
+  .record-detail {
+    padding: r(27) 0 0 r(20);
+
+    .detail-item {
+      position: relative;
+      @include height(r(50));
+      font-size: r(14);
+      color: #333333;
+
+      &:not(:last-child) {
+        &:after {
+          content: '';
+          width: 200%;
+          border-bottom: 1px solid #D8D8D8;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          transform-origin: 0 0;
+          transform: scale(0.5, 0.5);
+        }
+      }
+      .time {
+        position: absolute;
+        right: 0.2rem;
+        top: 0;
+        span {
+          font-size: r(16);
+          color: #FF4A7D;
+        }
+      }
+    }
+  }
+}

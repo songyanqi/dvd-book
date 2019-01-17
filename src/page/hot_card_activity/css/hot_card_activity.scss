@@ -1,0 +1,85 @@
+@import "../../../common/css/util";
+
+.hot_card_activity {
+  background: white;
+  min-height: r(600);
+
+  .no_more {
+    margin-top: 0.1rem;
+    text-align: center;
+  }
+  .no_more img {
+    vertical-align: middle;
+  }
+  .no_moreStyle {
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    color: #999999;
+  }
+  .wapper {
+    padding: 0 0.2rem;
+  }
+  .wapper .list {
+    position: relative;
+    height: 1rem;
+
+  }
+  .pad-line {
+    width: 6.7rem;
+    margin: 0.1rem 0rem;
+    height: 1px;
+    background: #d8d8d8;
+    transform: scale(0.5);
+    transform-origin: top left;
+    overflow: hidden;
+
+  }
+  .list .content {
+    /*height:1rem;*/
+    overflow: hidden;
+  }
+  .list .left-pic {
+    float: left;
+    width: 1.6rem;
+    height: 0.8rem;
+    padding-top: 0.1rem;
+  }
+  .list .left-pic img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .list .right-cont {
+    float: left;
+  }
+  .list .right-cont p {
+    margin: 0.1rem 0 0 0.1rem;
+    color: #666666;
+  }
+  .list .right-cont p span {
+    color: #FF4a7d;
+    font-size: 0.14rem;
+  }
+  .list .right-cont .btn {
+    position: absolute;
+    bottom: 0.1rem;
+    margin-left: 0.1rem;
+    width: 0.55rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    border-radius: 0.2rem;
+    font-size: 0.12rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  .noJoin {
+    background: #FF4a7d;
+  }
+  .Join {
+    background: #DBDBDB;
+  }
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@import '../../../node_modules/dvd-service-scss-common/dvd-service-scss-common';
+
+img {
+  object-fit: cover;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.app {
+  div:first-of-type {
+    animation: show 0.1s;
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "code": 0,
+  "shop_url": "https://15522634982.davdian.com",
+  "visitor_status": 3,
+  "sess_key": "42df8bf6e510c97c11afe81a96569014027bf803",
+  "data": {
+    "count": "20",
+    "list": [
+      {
+        "id": "string, 评论ID",
+        "nickname": "string, 用户昵称",
+        "avatar": "//5e.dvmama.com/wap/static/dist/static/page/center/img/default-head.png",
+        "content": "string, 评论内容",
+        "delStatus": "1",
+        "createTime": "string, 发布时间文案"
+      },
+      {
+        "id": "string, 评论ID",
+        "nickname": "string, 用户昵称",
+        "avatar": "//5e.dvmama.com/wap/static/dist/static/page/center/img/default-head.png",
+        "content": "string, 评论内容",
+        "delStatus": "string, 0: 不可删除 1:可删除",
+        "createTime": "string, 发布时间文案"
+      },
+      {
+        "id": "string, 评论ID",
+        "nickname": "string, 用户昵称",
+        "avatar": "//5e.dvmama.com/wap/static/dist/static/page/center/img/default-head.png",
+        "content": "string, 评论内容",
+        "delStatus": "string, 0: 不可删除 1:可删除",
+        "createTime": "string, 发布时间文案"
+      },
+      {
+        "id": "string, 评论ID",
+        "nickname": "string, 用户昵称",
+        "avatar": "//5e.dvmama.com/wap/static/dist/static/page/center/img/default-head.png",
+        "content": "string, 评论内容",
+        "delStatus": "string, 0: 不可删除 1:可删除",
+        "createTime": "string, 发布时间文案"
+      },
+      {
+        "id": "string, 评论ID",
+        "nickname": "string, 用户昵称",
+        "avatar": "//5e.dvmama.com/wap/static/dist/static/page/center/img/default-head.png",
+        "content": "string, 评论内容",
+        "delStatus": "string, 0: 不可删除 1:可删除",
+        "createTime": "string, 发布时间文案"
+      },
+      {
+        "id": "string, 评论ID",
+        "nickname": "string, 用户昵称",
+        "avatar": "//5e.dvmama.com/wap/static/dist/static/page/center/img/default-head.png",
+        "content": "string, 评论内容",
+        "delStatus": "string, 0: 不可删除 1:可删除",
+        "createTime": "string, 发布时间文案"
+      },
+      {
+        "id": "string, 评论ID",
+        "nickname": "string, 用户昵称",
+        "avatar": "//5e.dvmama.com/wap/static/dist/static/page/center/img/default-head.png",
+        "content": "string, 评论内容",
+        "delStatus": "string, 0: 不可删除 1:可删除",
+        "createTime": "string, 发布时间文案"
+      },
+      {
+        "id": "string, 评论ID",
+        "nickname": "string, 用户昵称",
+        "avatar": "//5e.dvmama.com/wap/static/dist/static/page/center/img/default-head.png",
+        "content": "string, 评论内容",
+        "delStatus": "string, 0: 不可删除 1:可删除",
+        "createTime": "string, 发布时间文案"
+      }
+    ]
+  }
+}

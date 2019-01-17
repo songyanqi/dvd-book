@@ -1,0 +1,84 @@
+@import "../../../common/css/util";
+
+.index {
+  background: white;
+  padding-bottom: 50px;
+
+  &.native {
+    padding-bottom: 0;
+  }
+
+  .dvd-service-com-title .panel {
+    background: white;
+  }
+
+  &.footer {
+    .sys-status {
+      position: fixed;
+      width: 100%;
+      max-width: 640px;
+      top: 0;
+      height: 20px;
+      //background: black;
+      //opacity: 0.5;
+      background: white;
+      opacity: 0;
+      z-index: 2;
+      &.android {
+        background: #E1E1E1;
+      }
+    }
+    .dvd-service-com-title {
+      top: 20px;
+    }
+    .com-feed-body-banner .join-num {
+      margin-top: r(36);
+    }
+  }
+
+  &.menu {
+    margin-top: 40px;
+    .dvd-service-com-title {
+      top: 40px;
+    }
+  }
+
+  &.block {
+    .dvd-service-com-title.opacity {
+      //top: 44px;
+    }
+  }
+
+  /* 标题栏 */
+  .dvd-service-com-title {
+    z-index: 2;
+    .btn-scan {
+      margin: 4px 0 0 10px;
+      width: 40px;
+      height: 40px;
+    }
+    .btn-record {
+      margin: 4px 10px 0 0;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  /* 底部feedList */
+  .record-swiper {
+    width: 100%;
+    .swiper-slide {
+      width: 100%;
+      background: white;
+    }
+    .com-feed-list {
+      background: #fcfcfc;
+      position: relative;
+      top: -1px;
+    }
+  }
+
+  .com-feed-list {
+    //padding-top: 1px;
+  }
+}
