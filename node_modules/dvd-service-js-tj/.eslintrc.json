@@ -1,0 +1,187 @@
+{
+  "root": true,
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "$": true
+  },
+  "extends": "eslint:recommended",
+  "plugins": [
+    "html"
+  ],
+  "rules": {
+    "no-debugger": "off",
+    "no-console": [
+      "off"
+    ],
+    "indent": [
+      "warn",
+      2
+    ],
+    "max-len": [
+      "warn",
+      80
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "array-bracket-spacing": [
+      "warn",
+      "never"
+    ],
+    "space-in-parens": [
+      "warn",
+      "never"
+    ],
+    "comma-spacing": [
+      "warn",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "semi-spacing": [
+      "warn",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "keyword-spacing": [
+      "warn",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "space-before-blocks": [
+      "warn",
+      "always"
+    ],
+    "space-before-function-paren": [
+      "warn",
+      "never"
+    ],
+    "space-infix-ops": "warn",
+    "arrow-spacing": [
+      "warn",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "lines-around-comment": [
+      "warn",
+      {
+        "beforeBlockComment": true,
+        "beforeLineComment": true
+      }
+    ],
+    "eol-last": [
+      "warn",
+      "always"
+    ],
+    "object-curly-newline": [
+      "warn"
+    ],
+    "brace-style": [
+      "error",
+      "1tbs"
+    ],
+    "comma-style": [
+      "warn",
+      "last"
+    ],
+    "operator-linebreak": [
+      "warn",
+      "after"
+    ],
+    "spaced-comment": [
+      "warn",
+      "always"
+    ],
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    "camelcase": [
+      "warn",
+      {
+        "properties": "never"
+      }
+    ],
+    "vars-on-top": [
+      "error"
+    ],
+    "one-var": [
+      "error"
+    ],
+    "quote-props": [
+      "warn",
+      "as-needed"
+    ],
+    "comma-dangle": [
+      "warn",
+      "never"
+    ],
+    "curly": [
+      "error",
+      "all"
+    ],
+    "eqeqeq": [
+      "error",
+      "always"
+    ],
+    "no-shadow": [
+      "error",
+      {
+        "builtinGlobals": false,
+        "hoist": "all",
+        "allow": []
+      }
+    ],
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": true,
+        "classes": true,
+        "variables": true
+      }
+    ],
+    "no-extra-parens": [
+      "warn",
+      "all"
+    ],
+    "no-loop-func": [
+      "error"
+    ],
+    "no-multi-spaces": [
+      "error",
+      {
+        "ignoreEOLComments": false
+      }
+    ],
+    "linebreak-style": [
+      "warn",
+      "unix"
+    ],
+    "consistent-this": [
+      "error",
+      "that"
+    ],
+    "no-trailing-spaces": [
+      "warn",
+      {
+        "skipBlankLines": false,
+        "ignoreComments": false
+      }
+    ]
+  }
+}

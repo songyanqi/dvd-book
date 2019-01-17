@@ -1,0 +1,10 @@
+@import "../../../common/css/util";
+
+.app {
+  background: white;
+
+  /* 安卓hack */
+  &.android {
+
+  }
+}

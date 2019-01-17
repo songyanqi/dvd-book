@@ -1,0 +1,9 @@
+@import 'function_math';
+
+@function rem($px) {
+  @return $px / 100 * 1rem;
+}
+
+@function ptr($px) {
+  @return $px / 100 * 1rem;
+}
