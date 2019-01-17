@@ -1,0 +1,50 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "小书库项目",
+  "type": "spa",
+  "main": "router",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.rd.vyohui.com/fe/book.git"
+  },
+  "scripts": {
+    "create": "gulp task_create",
+    "start": "gulp"
+  },
+  "author": "fe",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.18.0",
+    "dvd-base-build": "1.6.7-beta6",
+    "dvd-base-js-cache": "0.0.4",
+    "dvd-base-js-date": "0.0.4",
+    "dvd-base-js-number": "0.0.3",
+    "dvd-base-js-page-scroll-position": "0.0.8",
+    "dvd-base-js-param": "1.0.15",
+    "dvd-base-js-runtime": "0.0.8",
+    "dvd-base-js-type": "0.0.3",
+    "dvd-base-js-ua": "0.0.7",
+    "dvd-base-scss-util": "0.0.7",
+    "dvd-service-com-audio-player": "^0.1.7",
+    "dvd-service-com-footer": "0.0.35",
+    "dvd-service-com-go-page-top": "0.0.2",
+    "dvd-service-com-title": "1.0.4",
+    "dvd-service-js-ajax": "1.0.12",
+    "dvd-service-js-ajax-file-upload": "0.0.4",
+    "dvd-service-js-common": "0.1.40",
+    "dvd-service-js-console": "1.0.1",
+    "dvd-service-js-debug": "1.0.0",
+    "dvd-service-js-encrypt": "0.0.10",
+    "dvd-service-js-img-lazyload": "0.0.7",
+    "dvd-service-js-login": "0.0.11",
+    "dvd-service-js-native": "0.0.17",
+    "dvd-service-js-popup": "0.0.12",
+    "dvd-service-js-security": "0.0.2",
+    "dvd-service-js-share": "0.0.8",
+    "dvd-service-js-tj": "1.1.x",
+    "dvd-service-js-util": "0.0.13",
+    "dvd-service-scss-common": "0.1.0",
+    "url-parse": "^1.4.4"
+  }
+}
